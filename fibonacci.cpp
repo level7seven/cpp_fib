@@ -19,7 +19,7 @@ long fib(long number){
     if ((0 == number) || (1 == number)) {
         return 1;
     } else { 
-        return fib(number -1) + fib(number - 2);
+        return fib(number - 1) + fib(number - 2);
     }
 
 }
